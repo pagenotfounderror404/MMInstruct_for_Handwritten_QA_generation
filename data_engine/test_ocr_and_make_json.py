@@ -31,7 +31,7 @@ def save_results(results, output_file):
 
 # Main execution
 if __name__ == "__main__":
-    image_directory = "./images/posters/Test"  # Replace with your image directory path
+    image_directory = "../anno"
     output_file = "ocr_results.json"
 
     results = process_images(image_directory)

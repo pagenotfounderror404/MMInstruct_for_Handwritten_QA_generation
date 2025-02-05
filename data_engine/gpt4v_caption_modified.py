@@ -117,9 +117,9 @@ def get_qwen_caption(img_folder, source_path, dest_path, begin_ix):
             logger.error(f"Traceback: {traceback.format_exc()}")
 
 if __name__ == '__main__':
-    img_folder = './images/posters/Test'
+    img_folder = '../anno'
     source_path = 'ocr_results.json'
-    dest_path = 'poster_caption_1.jsonl'
+    dest_path = 'anno_caption.jsonl'
     begin_ix = 0
     get_qwen_caption(img_folder, source_path, dest_path, begin_ix)
     logger.info("done.")
